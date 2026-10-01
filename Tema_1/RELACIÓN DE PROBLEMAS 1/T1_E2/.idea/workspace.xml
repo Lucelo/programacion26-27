@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3320b9c0-27c1-45a9-8eba-8ecbfadb11cc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../T1_E1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../T1_E1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E1/T1_E1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T1_E1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/T1_E2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E3/T1_E3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E3/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E4/T1_E4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E4/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E5/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E5/T1_E5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1_E5/src/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Lucelo"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Lucelo/programacion26-27.git",
+    "accountId": "e6081be8-12c2-469b-a47f-638de79f5c3f"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3JweSMDIFzR9Drw4RWbBy3zXlqj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Alumno/IdeaProjects/programacion26-27/T1_E2",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Alumno/IdeaProjects/T1_E2/src/Main.java",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3320b9c0-27c1-45a9-8eba-8ecbfadb11cc" name="Changes" comment="" />
+      <created>1790576559161</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1790576559161</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
