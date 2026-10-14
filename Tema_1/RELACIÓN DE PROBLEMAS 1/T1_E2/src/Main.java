@@ -1,7 +1,8 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Scanner;
+
 void main() {
     Scanner sc = new Scanner(System.in);
+
     System.out.println("Escribe dos numeros por teclado");
 
     System.out.print("> ");
@@ -20,5 +21,6 @@ void main() {
         System.out.println("El primer numero es igual a el segundo");
 
     }
-
 }
+
+
