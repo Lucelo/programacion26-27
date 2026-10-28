@@ -1,13 +1,14 @@
 import java.util.Scanner;
 
+
 public class MiEntradaSalida {
+
 
     public static String leerCadena(String cadena) {
         Scanner sc = new Scanner(cadena);
 
         System.out.printf("%s: ", cadena);
-        String cadenaEntrada = sc.nextLine();
-        return cadenaEntrada;
+        return sc.nextLine();
 
     }
 
@@ -15,8 +16,7 @@ public class MiEntradaSalida {
         Scanner sc = new Scanner(cadena);
 
         System.out.printf("%s: ", cadena);
-        int numerointroducio = Integer.parseInt(sc.nextLine());
-        return numerointroducio;
+        return Integer.parseInt(sc.nextLine());
 
     }
 
@@ -24,13 +24,42 @@ public class MiEntradaSalida {
         Scanner sc = new Scanner(cadena);
 
         System.out.printf("%s: ", cadena);
-        double numerointroducio = Double.parseDouble(sc.nextLine());
+        return Double.parseDouble(sc.nextLine());
+
+    }
+
+    public static int leerEnteroRfango(String cadena, int min, int max) {
+        Scanner sc = new Scanner(cadena);
+        System.out.printf("%s: ", cadena);
+        int numerointroducio;
+        do {
+            numerointroducio = Integer.parseInt(sc.nextLine());
+            if (numerointroducio < min || numerointroducio > max) {
+                System.out.printf("%s: ", cadena);
+            }
+
+        } while (numerointroducio > min || numerointroducio < max);
+
         return numerointroducio;
 
     }
 
-    static void main(String[] args) {
+    public static char leerCaracter(String cadena) {
+        Scanner sc = new Scanner(cadena);
+        System.out.printf("%s: ", cadena);
+        char caracter = sc.nextLine().charAt(0);
+        return caracter;
 
+    }
+
+    public static String leerSiNO() {
+        Scanner sc = new Scanner(System.in);
+        System.out.printf("%s: ", sc.nextLine());
+        return sc.nextLine();
+
+    }
+
+    static void main(String[] args) {
 
         System.out.println(leerCadena("leerCadena"));
 
@@ -38,6 +67,9 @@ public class MiEntradaSalida {
 
         System.out.println(leerDouble("leerDouble"));
 
+        System.out.println(leerCaracter("leerCaracter"));
+
+        System.out.println(leerSiNO());
 
     }
 
