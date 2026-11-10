@@ -1,4 +1,3 @@
-
 //Crea un programa que cree una matriz de Nx10, donde el usuario introducirá el
 //número N por teclado. El sistema creará entonces la tabla de multiplicar de los N
 //primeros números e introducirá el resultado en las casillas correspondientes del

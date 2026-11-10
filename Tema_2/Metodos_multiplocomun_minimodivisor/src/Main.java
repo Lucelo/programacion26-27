@@ -11,8 +11,4 @@ void main() {
     //Cálculo del Mínimo Común Múltiplo
 
 
-
-
-
-
 }
