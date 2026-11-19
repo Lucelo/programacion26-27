@@ -13,9 +13,9 @@ void main() {
 
     int num = 0;
 
-    for (int i = 0; i < matrix.length; i++) {
-        for (int j = 0; j < matrix[i].length; j++) {
-            numeros[num++] = matrix[i][j];
+    for (int[] ints : matrix) {
+        for (int anInt : ints) {
+            numeros[num++] = anInt;
         }
     }
 

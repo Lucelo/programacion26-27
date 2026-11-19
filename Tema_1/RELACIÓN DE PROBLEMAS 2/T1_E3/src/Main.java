@@ -28,7 +28,7 @@ static void main() {
 
     } else {
         System.out.println("El valor " + a + " no es valido solo valores de 0 para arriba");
-        
+
     }
 
 }

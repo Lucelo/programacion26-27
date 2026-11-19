@@ -1,5 +1,6 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 import java.util.Scanner;
 
 public class Main {
@@ -36,7 +37,7 @@ public class Main {
             }
 
             // Asteriscos del tronco (ancho constante de 3)
-            for (int k = 1; k <= (n/4); k++) {
+            for (int k = 1; k <= (n / 4); k++) {
                 System.out.print("*");
             }
 

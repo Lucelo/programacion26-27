@@ -6,7 +6,6 @@
 void main() {
 
 
-
     int[][] matriz1 = {
             {12, 45, 78, 23, 91},
             {34, 67, 15, 82, 56},
@@ -19,7 +18,7 @@ void main() {
 
     for (int i = 0; i < matriz1.length; i++) {
         for (int j = 0; j < matriz1[i].length; j++) {
-            matriz2[i][j] = matriz1[i][(matriz1[i].length-1)-j];
+            matriz2[i][j] = matriz1[i][(matriz1[i].length - 1) - j];
         }
     }
 
