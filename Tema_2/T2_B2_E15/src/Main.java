@@ -1,47 +1,34 @@
 
-//Crea un método que compruebe, sobre una matriz de enteros, cuántas casillas
-//adyacentes tienen valores pares. Se considera adyacente todas las posiciones
-//colindantes, incluidas las diagonales. En el siguiente ejemplo, el 7 (en rojo) tiene 4
-//casillas colindantes con números pares. El resultado se deberá guardar en otra matriz,
-//que contendrá dichos números. Para este ejercicio, consideraremos que el 0 es par.
-
+//Crear un método que devuelva el número de casilla a la que corresponden unas
+//coordenadas. Es decir, el número de casilla empezando por la casilla [0,0], y recorriendo
+//primero por filas y luego por columnas. Por ejemplo, la casilla [1,5] en una matriz de 6x6
+//ocuparía el número 12. En la misma matriz, la casilla [4,0] ocuparía el número 25
 void main() {
 
 
-    int[][] matrix1 = {
-            {1, 2, 3, 4, 5},
-            {6, 7, 8, 9, 0},
-            {3, 2, 1, 4, 5},
-            {9, 5, 8, 6, 7},
-            {0, 9, 8, 5, 4}
-    };
+    Scanner sc = new Scanner(System.in);
+    int[][] matrix = new int[10][10];
 
-    int[][] matrix2 = new int[matrix1.length][matrix1[0].length];
+    int num = 0;
 
-    for (int i = 0; i < matrix1.length; i++) {
-        for (int j = 0; j < matrix1[0].length; j++) {
-            matrix2[i][j] = matrix1[i][j];
+    System.out.print("> ");
+    int bus = sc.nextInt();
+
+    for (int i = 0; i < 10; i++) {
+        for (int j = 0; j < 10; j++) {
+            matrix[i][j] = num++;
         }
     }
 
-    for (int i = 0; i < matrix1.length; i++) {
-        for (int j = 0; j < matrix1[i].length; j++) {
-            int num = 0;
-            for (int i1 = -1; i1 <= 1; i1++) {
-                for (int k1 = -1; k1 <= 1; k1++) {
-                    if (i + i1 >= 0 && i + i1 < matrix1.length && j + k1 >= 0 && j + k1 < matrix1[i].length) {
-                        if (!(i1 == 0 && k1 == 0) && matrix1[i + i1][j + k1] % 2 == 0) {
-                            num++;
-                        }
-                    }
-                }
+    for (int i = 0; i < 10; i++) {
+        for (int j = 0; j < 10; j++) {
+            if (matrix[i][j] == bus) {
+
+                System.out.println("El numero se encuentra en la casilla [" + i + ", " + j + "]");
+                break;
             }
-            matrix2[i][j] = num;
         }
     }
 
-    for (int[] ints : matrix2) {
-        System.out.println(Arrays.toString(ints));
-    }
 
 }
